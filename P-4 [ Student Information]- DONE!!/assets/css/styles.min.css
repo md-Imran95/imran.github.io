@@ -1,0 +1,51 @@
+#input,body{
+    font-family:Montserrat,
+    sans-serif;
+}
+#info-column{
+    overflow-y:scroll;
+    width:100%;height:100vh;
+    background-image:url(../../assets/img/accomplishment-celebrate-ceremony-267885.jpg);background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:0
+}
+#div-cover{
+    width:100%;background-color:rgba(0,0,0,.44);
+    height:100%
+}
+#input{
+    width:100%;height:8vh;font-size:16rem;margin-bottom:10px;font-weight:700;color:#000
+}
+body{
+    font-size:18px
+}
+
+
+.success,.error{
+    font-family:Montserrat,
+    sans-serif;
+color:white;
+padding:5px;
+margin:5px 0 15px 0;
+
+}
+.error{
+    background:  #F44336  ;
+}
+.success{
+    background:#66BB6A  ;
+}
+
+thead{
+    color:rgb(0,0,0);
+    background-color:#efa12b;
+    font-family:Montserrat, sans-serif;
+    font-size:13px;
+    width:100%;
+}
+tbody{
+    font-size:14px;
+    font-weight:bold;
+    background-color:rgba(255,255,255,0.54);
+}

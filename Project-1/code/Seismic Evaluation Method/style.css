@@ -1,0 +1,558 @@
+
+body
+{
+  max-height: auto;
+background-color: #D6EAF8  ;
+text-transform: capitalize;
+
+
+
+}
+#SEISMIC{
+  height: auto;
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(110,110,110,1);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(110,110,110,1);
+  box-shadow: 0px 0px 30px 0px rgba(110,110,110,1);
+}
+#firsth1{
+  font-size: 5rem;
+  font-family:Mistral;
+  color: black;
+  margin-top:50px;
+  font-weight: bold;
+}
+button
+{
+  margin-top: 30px;
+  margin-bottom: 10px;
+padding: 12px;
+font-weight: bold;
+border: 2px solid ;
+    border-radius: 8px;
+    color: white;
+    font-size: 25px;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+  h2{
+    margin-top: 50px;
+
+    font-size: 20px;
+    font-weight:bold;
+  }
+
+
+/*  */
+
+.control {
+    font-family: arial;
+    display: block;
+    position: relative;
+    padding-left: 39px;
+    margin-bottom: 8px;
+    padding-top: 2px;
+    cursor: pointer;
+    font-size: 16px;
+}
+    .control input {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+.control_indicator {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #e6e6e6;
+    border: 0px solid #000000;
+}
+.control-radio .control_indicator {
+    border-radius: undefined%;
+}
+
+.control:hover input ~ .control_indicator,
+.control input:focus ~ .control_indicator {
+    background: #cccccc;
+}
+
+.control input:checked ~ .control_indicator {
+    background: #2aa1c0;
+}
+.control:hover input:not([disabled]):checked ~ .control_indicator,
+.control input:checked:focus ~ .control_indicator {
+    background: #0e6647d;
+}
+.control input:disabled ~ .control_indicator {
+    background: #e6e6e6;
+    opacity: 0.6;
+    pointer-events: none;
+}
+.control_indicator:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+.control input:checked ~ .control_indicator:after {
+    display: block;
+}
+.control-checkbox .control_indicator:after {
+    left: 8px;
+    top: 4px;
+    width: 3px;
+    height: 8px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.control-checkbox input:disabled ~ .control_indicator:after {
+    border-color: #7b7b7b;
+}
+
+/*  */
+/*  */
+
+.card-header
+{
+  text-align: center;
+  font-size: 18px;
+  font-weight:
+  font-family: Arial Rounded MT Bold;
+}
+
+
+.bs
+{
+  font-size: 30px;
+
+  color: red;
+  font-family:fantasy;
+}
+#bs-input{
+  width: 250px;
+font-size: 25px;
+color: Orange;
+background-color: black;
+font-weight: bold;
+}
+#M2{
+
+    width: 250px;
+  font-size: 25px;
+  color: Orange;
+  background-color: black;
+  font-weight: bold;
+  }
+
+  #MBS{
+    width: 250px;
+  font-size: 25px;
+  color: Orange;
+  background-color: white;
+  font-weight: bold;
+  outline: none;
+border-radius: 10px;
+text-align: center;
+color: #330099;}
+
+
+h3
+{
+  font-size: 40px;
+  font-family: Bradley Hand ITC;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight:bold;
+  margin-left: 18%;
+  color:#010749;
+  background-color: yellow;
+
+}
+
+
+#bs-head
+{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+#m1-head
+{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+#m2-head
+{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+#bs-table
+{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center
+
+}
+#m2-table
+{
+width: 600px;
+height: 120px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center
+
+}
+#m3-table
+{
+width: 450px;
+height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center
+
+}
+#m3-card
+{
+  width: 500px;
+}
+
+#m1-table
+{height: 80px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+
+
+}
+
+#bsButton
+{
+font-size: 25px;
+color: Orange;
+font-weight: bold;
+}
+
+#bsDisplay
+{
+  background-color: black;
+font-size: 30px;
+color: Orange;
+font-weight: bold;
+}
+#btn-bs{
+
+
+
+  font-size: 15px;
+  color: Orange;
+  font-weight: bold;
+  }
+
+
+
+#btn-m1
+{
+width: auto;
+
+font-size: 15px;
+color: Orange;
+font-weight: bold;
+
+}
+
+#M3{
+
+    width: 250px;
+  font-size: 25px;
+  color: Orange;
+  background-color: black;
+  font-weight: bold;
+  }
+
+  #m2-input
+  {width: 250px;
+  font-size: 25px;
+  color: Orange;
+  background-color: black;
+  font-weight: bold;
+  }
+
+
+
+#m1-input
+{width: 250px;
+font-size: 25px;
+color: Orange;
+background-color: black;
+font-weight: bold;
+}
+.M1
+{
+
+    font-size: 30px;
+    color: red;
+    font-family:fantasy;
+
+}
+.M2
+{
+  font-size: 30px;
+  color: red;
+  font-family:fantasy;
+}
+.M3
+{
+  font-size: 30px;
+  color: red;
+  font-family:fantasy;
+}
+
+#small
+{
+  margin-top: 10px;
+}
+
+#vs{
+    font-size: 10px;
+  width: 200px;
+  height: 100px;
+}
+
+#vs th
+{
+  text-transform: capitalize;
+  font-size: 12px;
+  font-family: Arial Rounded MT Bold;
+}
+
+
+#vsm-score1,
+#vsm-score2,
+#vsm-score3,
+#vsm-score4,
+#vsm-score5,
+#vsm-score6,
+#vsm-score7,
+#vsm-score8,
+#vsm-score9,
+#vsm-score10,
+#vsm-score11,
+#vsm-score12,
+#vsm-score13
+
+{
+  width: 60px;
+
+font-size: 15px;
+color: Orange;
+background-color: black;
+font-weight: bold;
+
+}
+#vs-score1,
+#vs-score2,
+#vs-score3,
+#vs-score4,
+#vs-score5,
+#vs-score6,
+#vs-score7,
+#vs-score8,
+#vs-score9,
+#vs-score10,
+#vs-score11,
+#vs-score12,
+#vs-score13
+{
+  width: 60px;
+font-size: 15px;
+color: Orange;
+background-color: black;
+font-weight: bold;
+
+}
+
+
+
+
+/*  */
+#vsm{
+    font-size: 10px;
+    width: 450px;
+
+}
+
+#vsm th
+{
+  max-height: 20px;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-family: Arial Rounded MT Bold;
+}
+
+
+#vsmselect
+{
+  width: 40px;
+
+font-size: 10px;
+color: Orange;
+background-color: black;
+font-weight: bold;
+
+}
+#SCORE
+{
+width: 60px;
+font-size: 10px;
+font-weight: bold;
+}
+/*  */
+/*  */
+#vsvsm-table
+{
+
+}
+#vsxvsm
+
+{
+
+
+width: 100px;
+height: 30px;
+}
+
+#mvs-total
+{
+
+  font-size: 20px;
+  font-weight: bold;
+  width: 80px;
+height: 40px;
+  margin-top: 2px;
+  color: black;
+}
+
+#ps-card{
+width: 600px;
+height: 200px;
+position: center;
+margin-left: 200px;
+
+}
+#ps-btn{
+  margin-top: 0px;
+  width: 450px;
+  font-size: 30px;
+
+  font-weight: bold;
+  text-transform:uppercase;
+  font-family:fantasy;
+  color: black;
+}
+
+#PS
+{
+    font-size: 30px;
+    background-color: black;
+    color: orange;
+font-weight: bold;
+text-align: center;
+outline: none;
+border-radius: 10px;
+}
+
+#select-top{
+width:100%;
+height:auto;
+color: Black;
+border-radius: 2px;
+font-size: 1rem;
+
+}
+#select
+{
+  outline: none;
+  width:100%;
+  height:auto;
+  background-color: #CFD8DC  ;
+  color: Black;
+  border-radius: 3px;
+  font-size: 1.2rem;
+
+}
+
+/* image  */
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+#img-upload{
+  width: 50%;
+}
+/* new mvs Table  */
+
+#header-row {
+  text-align:center;
+  font-size:25px;
+  font-family:'Varela Round', sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  letter-spacing:1px;
+}
+
+tr {
+  text-transform:capitalize;
+  text-align:center;
+}
+
+.value.input {
+  border-radius:6px;
+  border:none;
+  width:90px;
+  height:54px;
+  background-color:rgb(0,0,0);
+  color:#FFD54F  ;
+  font-size:18px;
+  font-family:'Varela Round', sans-serif;
+  font-weight:bold;
+  padding:5px 5px;
+  padding-left:15px;
+  margin-top:12px;
+}
+
+.custom-select  {
+  border-radius:7px;
+  height:59px;
+  margin-top:11px;
+  font-size:13px;
+  font-family:'Varela Round', sans-serif;
+  font-weight:normal;
+  letter-spacing:1px;
+  padding-left:10px;
+  color:rgb(197,83,0);
+}

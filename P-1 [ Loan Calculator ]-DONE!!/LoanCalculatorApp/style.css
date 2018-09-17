@@ -1,0 +1,15 @@
+
+body{
+   
+}
+#loading, #results {
+    display:none;
+  }
+
+  #amount,#interest,#years,#monthly-payment,#total-payment,#total-interest{
+      height:62px; 
+      font-size: 18px;
+  }
+  h1{
+      font-weight: bold;
+  }

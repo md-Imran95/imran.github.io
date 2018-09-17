@@ -1,0 +1,47 @@
+body{
+  margin-top:70px;
+  background:#333;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+#amount,#GST{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.card{
+  padding: 20px;
+}
+
+#netOutput,#gstOutput,#grossOutput{
+  text-align: right;
+  font-size: 1.5rem;
+  font-family: 'Paprika', cursive;
+}
+
+#basic-addon1{
+background: #76D7C4;
+font-weight: bold;
+font-size: 1rem;
+
+}
+#basic-addon2
+{
+  border-color: none;
+  outline: none;
+  background: #76D7C4;
+font-weight: bold;
+font-size: 1rem;
+
+  background:#DC7633;
+}
+.dropdown-menu{
+ width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Paprika', cursive;
+}
+.btn
+{
+  border-radius: 100px;
+  font-size: 2em;
+}
